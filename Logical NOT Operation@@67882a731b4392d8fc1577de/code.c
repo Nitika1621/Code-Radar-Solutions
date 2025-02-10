@@ -1,12 +1,13 @@
 #include <stdio.h>
-int main()
-{
+
+int main() {
     int a;
-    scanf("%d",&a);
-    if(!("a>0")){
+    // Read an integer from the user
+    scanf("%d", &a);
+    // Check if 'a' is not greater than 0 using the '!' operator
+    if (!(a > 0)) {
         printf("True\n");
-    }
-    else{
+    } else {
         printf("False\n");
     }
     return 0;

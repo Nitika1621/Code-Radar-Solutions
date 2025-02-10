@@ -1,12 +1,13 @@
 #include <stdio.h>
-int main()
-{
-    int a,b;
-    scanf("%d %d",&a,&b);
-    if((a>0 && b>0)||(a<0 && b>0)){
+
+int main() {
+    int a, b;
+    // Read two integers from the user
+    scanf("%d %d", &a, &b);
+    // Check if the numbers have opposite signs using logical and relational operators
+    if ((a > 0 && b < 0) || (a < 0 && b > 0)) {
         printf("True\n");
-    }
-    else{
+    } else {
         printf("False\n");
     }
     return 0;

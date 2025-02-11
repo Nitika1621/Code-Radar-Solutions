@@ -1,12 +1,16 @@
 #include <stdio.h>
-int main(){
+
+int main() {
     int num;
-    scanf("%d",&num);
-    if(num & 1){
-        printf("set(1).\n",num);
+
+    
+    scanf("%d", &num);
+
+    if (num & 1) {
+        printf("Set\n");
+    } else {
+        printf("Not Set\n");
     }
-    else{
-        printf("set(0).\n",num);
-    }
+
     return 0;
 }

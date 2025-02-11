@@ -2,8 +2,8 @@
 int main()
 {
     int num,result;
-    scanf("%d",&result);
-    result=~num;
+    scanf("%d",&num);
+    result = ~num;
     printf("%d\n",result);
     return 0;
 }

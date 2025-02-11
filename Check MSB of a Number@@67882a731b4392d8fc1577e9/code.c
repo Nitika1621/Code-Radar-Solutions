@@ -1,10 +1,11 @@
 #include <stdio.h>
 
 int main() {
-    int msb = 1<<(sizeof(int)*8-1);
+    int num;
 
     
     scanf("%d", &num);
+    int msb=1<<(sizeof(int)*8-1);
 
     if (num & msb) {
         printf("Set\n");

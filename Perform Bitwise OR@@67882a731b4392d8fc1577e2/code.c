@@ -4,6 +4,6 @@ int main(){
     scanf("%d",&num1);
     scanf("%d",&num2);
     result=num1|num2;
-    printf("The result of %d|%d is: %d\n",result);
+    printf("%d\n",result);
     return 0;
 }

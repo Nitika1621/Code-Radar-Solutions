@@ -4,10 +4,10 @@ int main()
     int a;
     scanf("%d",&a);
     if(a%2==0){
-        printf("even");
+        printf("%d\n");
     }
     else{
-        printf("odd");
+        printf("%d\n");
     }
     return 0;
 }

@@ -7,7 +7,7 @@ int main()
         printf("even\n");
     }
     else{
-        printf("even\n");
+        printf("odd\n");
     }
     return 0;
 }

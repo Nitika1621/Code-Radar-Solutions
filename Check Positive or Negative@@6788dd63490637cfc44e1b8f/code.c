@@ -12,5 +12,5 @@ int main()
     else{
         printf("zero");
     }
-    return o;
+    return 0;
 }

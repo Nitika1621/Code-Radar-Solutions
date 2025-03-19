@@ -13,7 +13,7 @@ int main() {
 
     int result = clearNthBit(number, n);
 
-    printf("%d\n", n, result);
+    printf("%d\n", n);
 
     return 0;
 }

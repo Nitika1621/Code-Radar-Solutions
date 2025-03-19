@@ -9,7 +9,7 @@ int main() {
     scanf("%d", &number);
 
     if (number == 0) {
-        printf("The number has no set bits.\n");
+        printf("\n");
     } else {
         int lowestSetBit = getLowestSetBit(number);
         printf(" %d\n",  lowestSetBit);
